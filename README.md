@@ -12,11 +12,11 @@ A LAST ONE FOR THE DAY : the 'openDataID' could be not revealant because I remov
 Output Files
 ------------
 
-build/icons/*.png : all icons files
-build/stations/bus.json : only bus stations
-build/stations/subway.json : only subway stations
-build/stations/tram.json : only tram stations
-build/stations/all.json : all stations
++ build/icons/*.png : all icons files
++ build/stations/bus.json : only bus stations
++ build/stations/subway.json : only subway stations
++ build/stations/tram.json : only tram stations
++ build/stations/all.json : all stations
 
 The format for each station is :
 
@@ -39,14 +39,11 @@ The format for each station is :
 Source Files 
 ------------
 
-Offre transport de la RATP - format GTFS (full datas for each line)
-wget "http://dataratp.download.opendatasoft.com/RATP_GTFS_LINES.zip"
+Offre transport de la RATP - format GTFS (full datas for each line) : http://dataratp.download.opendatasoft.com/RATP_GTFS_LINES.zip
 
-Indices des lignes de bus du réseau RATP (icons)
-wget "http://data.ratp.fr/?eID=ics_od_datastoredownload&file=76" -O bus_icons.zip
+Indices des lignes de bus du réseau RATP (icons) : http://data.ratp.fr/?eID=ics_od_datastoredownload&file=76
 
-Indices et couleurs de lignes du réseau ferré RATP (icons)
-wget "http://data.ratp.fr/?eID=ics_od_datastoredownload&file=93" -O rail_icons.zip
+Indices et couleurs de lignes du réseau ferré RATP (icons) : http://data.ratp.fr/?eID=ics_od_datastoredownload&file=93
 
 
 Installation
@@ -55,7 +52,11 @@ Installation
 clone this repository
 decompress
 go to created directory
-Install nodejs dependencies by typing ``npm install``
+Install nodejs dependencies by typing 
+
+```
+npm install
+```
 
 
 Update Datas
