@@ -2,10 +2,12 @@ RATP OPEN DATAS IMPORT
 ======================
 
 This script will download a fresh version of RATP OpenDatas and build json files for all known stations.
+
 THIS IS NOT A FULL IMPLEMENTATION, ONLY TRANSPORT TYPE, LINE NUMBER, NAME, GEOLOCATION AND ICON FOR EACH STATION.
+
 THIS SCRIPT IS MADE TO BE STANDALONE. OUTPUT PATHS ARE NOT CONFIGURABLE FOR MOMENT.
 
-A LAST ONE FOR THE DAY : the 'openDataID' could be not revealant because I remove duplicated latitude/longitude stations. A futher version w
+A LAST ONE FOR THE DAY : the 'openDataID' could be not revealant because I remove duplicated latitude/longitude stations. A futher version will include them as alias.
 
 Output Files
 ------------
